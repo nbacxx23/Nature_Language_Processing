@@ -1,0 +1,34 @@
+1. Islamic State cannot be recognized as an entity, so need to be treated at first.
+2. Chunk head boolean problems:
+record 5150 finished.
+0
+mini: (NP (NNP Barack) (CC and) (NNP MichelleObama))
+chunk leaves: [Barack, and, MichelleObama]
+chunk labels: [MichelleObama-3, Barack-1, NNP, NP, NNP, and-2, CC]
+0
+mini: (NP (NNP MalalaYousafzai))
+chunk leaves: [MalalaYousafzai]
+chunk labels: [NP, NNP, MalalaYousafzai-5]
+sentence: Barack and Michelle Obama congratulate Malala Yousafzai
+entity_pair=(MichelleObama, MalalaYousafzai)
+target=V-POS
+distance_pair=1, len_sentence=5, pos_et1=3, pos_et2=5
+num_ets_left=1, num_ets_inside=0, num_ets_right=0
+num_triggers_left=0, num_triggers_inside=1, num_triggers_right=0
+num_pos_triggers_left=0, num_pos_triggers_inside=1, num_pos_triggers_right=0
+num_neg_triggers_left=0, num_neg_triggers_inside=0, num_neg_triggers_right=0
+num_neg_left=0, num_neg_inside=0, num_neg_right=0
+num_preps_left=0, num_preps_inside=0, num_preps_right=0
+ is_head_e1=1, is_head_e2=1, size_chunk_e1=7, size_chunk_e2=3
+num_verbs_left=0, num_verbs_inside=1, num_verbs_right=0
+num_nouns_left=1, num_nouns_inside=1, num_nouns_right=1
+
+3.When counting the words in one sentence, we use every corelabel as a token and the 
+5121	"<e1>Uganda</e1> clashes with Central Africa Republic's Seleka <e2>rebels</e2>"
+V-NEG
+5120	"<e1>Uganda</e1> clashes with <e2>Central Africa Republic</e2>'s Seleka rebels"
+M-POS
+
+4. chunksize ishead problems???
+
+5. pretreatement of sentences
